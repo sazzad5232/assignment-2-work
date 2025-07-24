@@ -20,7 +20,15 @@
 .flex {
   display: flex;
 }
-
+.btn-card {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 16px 50px 16px 50px;
+  width: 100%;
+  border: none;
+}
 /* nav bar */
 
 .nav-bar {
@@ -52,13 +60,16 @@ nav ul li:nth-child(1) a {
 /* banner */
 
 .banner {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 100px;
+  margin-bottom: 80px;
   justify-content: space-between;
 }
+
 .left-text-con h1 {
   font-size: 4rem;
   font-weight: 700;
+  margin-top: 16px;
+  padding-top: 12px;
 }
 .left-text-con h1 span {
   color: #e95a08;
@@ -67,7 +78,112 @@ nav ul li:nth-child(1) a {
   color: #00000080;
   font-size: 1.4rem;
   font-weight: 400;
-  padding-top: 30px;
+  padding-top: 20px;
   margin-bottom: 0px;
   text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.right-img-con {
+  display: flex;
+}
+
+/* our-plants-text */
+.our-plant-text {
+  margin-top: 80px;
+  margin-bottom: 49px;
+}
+.our-plant-text span {
+  color: #e95a08;
+}
+.our-plant-text h2 {
+  text-align: center;
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 68px;
+}
+.our-plant-text p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 27px;
+}
+/* our-plant-div */
+.our-plant-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 0px;
+  margin-bottom: 210px;
+}
+.flower-div {
+  width: 270px;
+  height: 484.94px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.flower-div h5 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 22px;
+  padding-bottom: 10px;
+}
+.flower-div h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+/* Flower & Plants Lover */
+
+.flower-plants-lover {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flower-plants-lover .lover-text h3 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.lover-img {
+  width: 540px;
+  height: 597px;
+}
+.lover-text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.lover-text-2 {
+  width: 540px;
+  height: 521px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20;
+  position: relative;
+  z-index: 0;
+}
+.lover-text-2 ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.lover-text-2 ul li:nth-child(n) {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+#trusted-badge {
+  display: block;
+  width: 286px;
+  height: 286px;
+
+  padding-bottom: 0px;
+  margin-left: -260px;
+  margin-top: -214px;
+  position: absolute;
+  z-index: 1;
 }
