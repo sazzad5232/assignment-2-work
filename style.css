@@ -328,3 +328,68 @@ nav ul li:nth-child(1) a {
   width: 36px;
   height: 36px;
 }
+
+/* responsive section */
+
+/* for phone device */
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    display: flex;
+    margin: 15px 15px;
+  }
+  figure {
+    display: flex;
+    width: 83px;
+    height: 48px;
+  }
+  .cart-con {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 113px;
+    height: 24px;
+  }
+  .cart-con i {
+    padding-top: 5px;
+  }
+  .home-cart ul {
+    display: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .right-img-con img {
+    width: 100%;
+    height: auto;
+  }
+  .banner .left-text-con {
+    align-items: center;
+    padding: 16px 16px;
+  }
+  .banner.left-text-con h1 {
+    align-self: left;
+    line-break: auto;
+  }
+  .banner.left-text-con p {
+    text-align: left;
+  }
+  .our-plant-text h2,
+  p {
+    text-align: center;
+  }
+  .our-plant-text p {
+    flex-direction: column;
+    padding: 16px 28px;
+    line-break: auto;
+  }
+  .our-plant-con {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .flower-div {
+    width: 100%;
+    height: auto;
+  }
+}
