@@ -10,7 +10,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 /* custom style */
@@ -338,6 +337,14 @@ nav ul li:nth-child(1) a {
 /* for phone device */
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  img,
+  section,
+  div {
+    max-width: 100%;
+  }
   .nav-bar {
     display: flex;
     margin: 15px 15px;
@@ -398,6 +405,7 @@ nav ul li:nth-child(1) a {
   .flower-div {
     width: 90%;
     height: auto;
+    max-width: 100%;
   }
   .flower-div img {
     width: 100%;
